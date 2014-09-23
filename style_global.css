@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*sticky footer starts*/
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#content-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -15em;
+}
+
+footer, #push {
+	height: 15em;
+}
+/*sticky footer ends*/
+
+.centered {
+	text-align: center;
+}
