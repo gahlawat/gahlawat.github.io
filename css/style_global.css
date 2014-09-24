@@ -24,3 +24,8 @@ footer, #push {
 .centered {
 	text-align: center;
 }
+
+img.centered {
+	display: block;
+	margin: 0 auto;
+}
