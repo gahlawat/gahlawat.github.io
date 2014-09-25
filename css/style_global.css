@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: 'Poiret One';
-	src: url('PoiretOne-Regular.ttf');
+	src: url('fonts/PoiretOne-Regular.ttf');
 }
 
 /*sticky footer starts*/
@@ -18,13 +18,29 @@ html, body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -15em;
+	margin: 0 auto -5em;
 }
 
 footer, #push {
-	height: 15em;
+	height: 5em;
 }
 /*sticky footer ends*/
+
+footer {
+	background-color: #23282B;
+	clear: both;
+	color: #919191;
+	padding-top: 2em;
+}
+
+footer a {
+	color: #919191;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
 
 .centered {
 	text-align: center;
