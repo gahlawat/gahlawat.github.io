@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+	font-family: 'Poiret One';
+	src: url('PoiretOne-Regular.ttf');
+}
+
 /*sticky footer starts*/
 * {
 	margin: 0;
@@ -31,5 +36,6 @@ img.centered {
 }
 
 .stylized-font {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', sans-serif;
+	/*font-weight: 200;*/
 }
