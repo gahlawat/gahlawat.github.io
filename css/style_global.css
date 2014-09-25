@@ -29,3 +29,7 @@ img.centered {
 	display: block;
 	margin: 0 auto;
 }
+
+.stylized-font {
+	font-family: 'Poiret One', cursive;
+}
