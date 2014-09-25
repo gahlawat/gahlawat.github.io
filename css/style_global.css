@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
 @font-face {
-	font-family: 'Poiret One';
-	src: url('fonts/PoiretOne-Regular.ttf');
+	font-family: 'Open Sans';
+	src: url('fonts/OpenSans-Regular.ttf');
+}
+
+html, body {
+	color: #506675;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 112.5%;
+	font-weight: 400;
 }
 
 /*sticky footer starts*/
@@ -51,7 +59,7 @@ img.centered {
 	margin: 0 auto;
 }
 
-.stylized-font {
-	font-family: 'Poiret One', sans-serif;
-	/*font-weight: 200;*/
+strong {
+	font-weight: 600;
+	font-size: 1.25rem;
 }
