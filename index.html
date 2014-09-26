@@ -7,18 +7,19 @@
 	<meta name="author" content="Jivesh Singh Gahlawat">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<!--link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'-->
-	<!--link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/style_global.css" rel="stylesheet">
 </head>
 <body>
 <div id="content-wrapper">
-	<div class="container-fluid col-md-8 col-md-offset-2">
-		<div class="form-group">
-			<img class="img-responsive img-circle centered" src="res/jivesh.jpg" alt="Jivesh">
+	<div class="container-fluid col-md-10 col-md-offset-1">
+		<div class="form-group img-container row">
+			<img class="img-responsive img-circle centered picture" src="res/jivesh.jpg" alt="Jivesh">
 		</div>
+	</div>
+	<div class="container-fluid col-md-8 col-md-offset-2">
 		<div class="form-group centered">
-			<p>Hi, my name is <strong>Jivesh Singh Gahlawat</strong> and I am a <strong>Software Engineer</strong>.</p>
+			<p>Hi, my name is <strong>Jivesh Singh Gahlawat</strong> and I am not batman. However, I have acquired some specific set of skills over a period of time to classify as a <strong>Software Engineer</strong>.</p>
 		</div>
 		<div class="centered form-group">
 			<a class="btn btn-default stylized-font" href="res/Jivesh_Singh_Gahlawat.pdf" target="_blank"><span class="glyphicon glyphicon-download-alt"></span>&nbsp;<span class="text-muted">Download my resume</span></a>
@@ -29,10 +30,25 @@
 
 <footer>
 	<div class="col-md-8 col-md-offset-2">
+		<a href="http://github.com/jiveshsg" target="_blank" class="pop" title="GitHub"><span class="fa fa-github"></span></a>
+		<a href="http://in.linkedin.com/in/gahlawat" target="_blank" class="pop" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+		<a href="http://www.facebook.com/jivesh4u" target="_blank" class="pop" title="Facebook"><span class="fa fa-facebook"></span></a>
+		<a href="http://twitter.com/jiveshsg" target="_blank" class="pop" title="Twitter"><span class="fa fa-twitter"></span></a>
+		<small class="pull-right">&copy; 2014 Jivesh Singh Gahlawat. All Rights Reserved.</small>
 	</div>
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+	$('.picture').hover(function() {
+		$(".picture").addClass('transition');
+	}, function() {
+		$(".picture").removeClass('transition');
+	});
+	$(".pop").tooltip();
+});
+</script>
 </body>
 </html>
