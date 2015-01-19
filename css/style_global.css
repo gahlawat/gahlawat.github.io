@@ -26,11 +26,11 @@ html, body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -5em;
+	margin: 0 auto -8em;
 }
 
 footer, #push {
-	height: 5em;
+	height: 8em;
 }
 /*sticky footer ends*/
 
